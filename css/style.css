@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* 모바일 용 */
+#wrap { width: 100%;
+    max-width: 1132px;
+    margin: 0 auto; }
+
+
+#screen  { display: none; overflow: hidden;}
+#screen2 { display: none; overflow: hidden;}
+#screen3  { display: none; overflow: hidden;}
+#screen4 { display: none; overflow: hidden;}
+
+/* 헤더 영역 */
+#header { 
+    position: relative; 
+    background: #D27FD2; padding: 14px 0 14px 15%; }
+#header h1 { 
+    cursor: pointer; display: inline-block;
+    font-size: 15px; color: #fff; margin: 0 20px; }
+
+/*헤더 슬라이더 영역*/
+#care { margin-left: 20px; }
+#name { margin-left: 5px; }
+
+/*ABOUT 영역*/
+#logo { margin-top: 200px; 
+    margin-left: 50px;}
+#about #ship { margin-top: 100px; }
+#about #write { margin-left: 50px; 
+margin-top: 20px; }
+
+/*MAIN1 영역*/
+#logo1 { margin-top: 200px; 
+    margin-left: 50px;}
+#main1 #pigure1 { margin-top: 100px; 
+    margin-left: -25px; }
+#main1 #pigure2 { margin-left: -40px; 
+    margin-top: 210px; }
+
+#main1 #pigure3 {
+    margin-left: -25px; }
+#main1 #pigure4 { margin-left: -40px; 
+    margin-top: 110px; }
+#main1 #pigure5 { 
+    margin-left: -25px; }
+#main1 #pigure6 { margin-left: -40px; 
+    margin-top: 110px; }
+
+/*MAIN2 영역*/
+#main2 #new1 { margin-top: 100px; 
+    margin-left: 30px; }
+#main2 #new2 { margin-top: 30px; 
+    margin-left: 40px; }
+
+/*CONTACT 영역*/
+#cont #cont1 { margin-top: 200px; 
+    margin-bottom: -32px; 
+    width: 100%;}
+#cont #cont2 { margin-top: -200px; 
+    margin-left: 5px;}
+#cont #cont3 { margin-top: -40px; 
+    margin-left: 150px;}
+
+
+/* 태블릿 용 */
+@media all and (min-width: 768px) {
+#wrap { margin: 0 auto; }
+#screen  { display: none; overflow: hidden;}
+#screen2 { display: none; overflow: hidden;}
+#screen3  { display: none; overflow: hidden;}
+#screen4 { display: none; overflow: hidden;}
+
+
+/* 헤더 영역 */
+#header h1 { margin: 0 60px; }
+
+/*헤더 슬라이더 영역*/
+#care { margin-left: 200px; }
+#name { margin-left: 200px; }
+
+/*ABOUT 영역*/
+#logo { margin-top: 200px; 
+    margin-left: 250px;}
+#about #ship { margin-top: 100px; 
+    margin-left: 200px; }
+#about #write { margin-left: 250px; 
+margin-top: 50px; }
+
+/*MAIN1 영역*/
+#logo1 { margin-top: 200px; 
+    margin-left: 250px; }
+#main1 #pigure1 { margin-top: 350px; 
+    margin-left: -450px; 
+    width: 350px; }
+#main1 #pigure2 { margin-top: 500px; }
+
+#main1 #pigure3 {margin-top: 660px;
+    margin-left: -520px; 
+    width: 350px; }
+#main1 #pigure4 { margin-left: -40px; 
+    margin-top: 820px; }
+
+#main1 #pigure5 { margin-top: 970px;
+    margin-left: -520px; 
+    width: 350px; }
+#main1 #pigure6 { margin-left: -40px; 
+    margin-top: 1140px; }
+
+/*MAIN2 영역*/
+#main2 #new1 { margin-top: 100px; 
+    margin-left: 220px;  }
+#main2 #new2 { margin-top: 50px; 
+    margin-left: 240px;  }
+
+/*CONTACT 영역*/
+#cont #cont1 { margin-top: 200px; 
+    margin-bottom: -32px; 
+    width: 100%; }
+#cont #cont2 { margin-top: -400px; 
+margin-left: 150px; 
+    width: 500px; }
+#cont #cont3 { margin-top: -90px; 
+margin-left: 290px; 
+width: 200px; 
+}
+
+}
+
+/* pc 용 */
+@media all and (min-width:1132px) {
+
+
+/* 헤더 영역 */
+#header h1 { width: 100px;
+    margin: 0 90px; }
+
+/*헤더 슬라이더 영역*/
+
+#care { margin-left: 150px; margin-top: 100px;}
+#name { margin-left: 100px; margin-top: 150px; }
+
+/*ABOUT 영역*/
+#about {display: none; }
+#main1 { display: none; }
+#main2 { display: none; }
+#cont { display: none; }
+
+#screen  { display: block; 
+    margin-top: 100px; }
+#screen2  { display: block; 
+ margin-top: 100px;
+ margin-left: 23%;
+
+ } 
+#screen3  { display: block; 
+    margin-top: 100px; 
+    margin-left: 23%;
+    }
+#screen4  { display: block; 
+    margin-top: 100px;  
+    margin-left: 23%;
+    }
+
+#target2 {display: block; 
+    margin-top: 100px; }
+
+#target3 {display: block; 
+    margin-top: 100px; }
+
+
+}
