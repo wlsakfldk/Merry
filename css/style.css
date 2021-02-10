@@ -147,25 +147,23 @@ width: 200px;
 
 #screen  { display: block; 
     margin-top: 100px; }
+
 #screen2  { display: block; 
+   
  margin-top: 100px;
- margin-left: 23%;
+ margin-left: -1%;
 
  } 
 #screen3  { display: block; 
     margin-top: 100px; 
-    margin-left: 23%;
+    margin-left: -1%;
     }
 #screen4  { display: block; 
     margin-top: 100px;  
-    margin-left: 23%;
+    margin-left: -1%;
     }
 
-#target2 {display: block; 
-    margin-top: 100px; }
 
-#target3 {display: block; 
-    margin-top: 100px; }
 
 
 }
